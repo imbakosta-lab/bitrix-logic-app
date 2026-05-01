@@ -28,7 +28,7 @@ async def index(request: Request):
         </head>
         <body>
             <div class="card">
-                <h2>Калькулятор Sulpak</h2>
+                <h2>Калькулятор логистики</h2>
                 <form action="/calculate" method="post">
                     <input type="hidden" name="domain" value="{domain}">
                     <input type="hidden" name="auth_token" value="{auth_token}">
